@@ -51,7 +51,7 @@ unclassified:
           scm:
             github:
               credentialsId: "cbdays-github-username-pat"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "bee-cd-workshop"
               repository: "pipeline-library"
   hibernationConfiguration:
     activities:
@@ -70,10 +70,10 @@ credentials:
               scope: GLOBAL
               id: cbdays-github-token-secret
               description: "GitHub PAT from JCasC - secret text"
-              secret: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              secret: "{AQAAABAAAAAwtFcBJ2T2+t4t8xeNt3PlM8SezqFOZrd0oEn5eVcnrz+mbTtotSDZ2G97RHL8m0DAeeF62RlSN0rrHFzcM9Chtw==}"
           - usernamePassword:
               scope: GLOBAL
               id: cbdays-github-username-pat
               description: "GitHub PAT from JCasC - username/password"
-              username: "REPLACE_WITH_YOUR_GITHUB_USERNAME"
-              password: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              username: "ExitoLab"
+              password: "{AQAAABAAAAAwtFcBJ2T2+t4t8xeNt3PlM8SezqFOZrd0oEn5eVcnrz+mbTtotSDZ2G97RHL8m0DAeeF62RlSN0rrHFzcM9Chtw==}"
